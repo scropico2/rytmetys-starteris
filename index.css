@@ -17,6 +17,10 @@
   --cta-text: #e6f2ec;
 }
 
+body {
+  background-color: var(--background);
+}
+
 .headerLogoTitle {
   display: flex;
   justify-content: center;
@@ -30,6 +34,7 @@
 }
 .navItem {
   text-decoration: none;
+  color: var(--text);
 }
 .navItem--marked {
   text-decoration: none;
