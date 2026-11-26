@@ -1,0 +1,11 @@
+# Operacinė sistema
+.DS_Store
+Thumbs.db
+
+# Redaktoriai
+.vscode/
+.idea/
+
+# Laikini failai
+*.log
+*.tmp

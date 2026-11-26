@@ -1,0 +1,45 @@
+# Rytmetys: kavinės svetainė
+
+HTML ir CSS atsiskaitymas, Vilnius Coding School.
+
+- **Vardas, pavardė:** (įrašyk)
+- **Grupė:** (įrašyk)
+- **GitHub Pages nuoroda (nebūtina):** (įrašyk, jei publikavai)
+
+## Kaip peržiūrėti
+
+Atsisiųsk arba nusiklonuok repozitoriją ir atidaryk `index.html` naršyklėje. Rezervacijos puslapis yra `rezervacija.html`.
+
+## Kas padaryta
+
+Pažymėk `x` tai, ką baigei (`- [x]`). Ko nespėjai arba nepavyko, palik nepažymėta.
+
+### 1 etapas: pagrindas
+
+- [ ] Dokumento karkasas: `lang="lt"`, `charset`, `viewport`, `title`, šriftai, `css/style.css`
+- [ ] Semantinė struktūra: `header`, `nav`, `main`, `section`, `footer`, viena `h1`
+- [ ] Visos `index.html` sekcijos pagal maketą (darbo laiko lentelę palik 2 etapui)
+- [ ] Paveikslėliai su `alt`, `width` ir `height`; galerijoje `figure` ir `figcaption`
+- [ ] Telefono vaizdas (390 px) pagal maketą
+- [ ] Planšetės (768 px) ir kompiuterio (1024 px ir 1440 px) vaizdai pagal maketą
+- [ ] Flexbox (antraštė, mygtukai, kortelės vidus) ir Grid (meniu kortelės, galerija)
+
+### 2 etapas: pilnas projektas
+
+- [ ] Darbo laiko lentelė (`caption`, `thead`, `tbody`, `tfoot`, `th scope`, `colspan`)
+- [ ] `rezervacija.html` su forma pagal maketą ir turinį
+- [ ] Formos laukai: tinkami `type`, `label for`, `fieldset` ir `legend`, `required`, `min`, `max`, `pattern`
+- [ ] CSS kintamieji (`:root`): spalvos, kampai, šešėlis, šriftai
+- [ ] Hover, fokuso ir klaidos būsenos pagal `maketai/busenos.png`, su `transition`
+- [ ] Spalvos, šriftai, tarpai ir smulkmenos atitinka maketą
+- [ ] Šis README užpildytas
+
+### 3 etapas: mano dalis
+
+- **Pasirinkta idėja:** (įrašyk)
+- **Ką padariau:** (2-3 sakiniai)
+- **Kur kode:** (failas ir sekcija)
+
+## Kas nepavyko arba ką darytum toliau
+
+(2-3 sakiniai. Trumpai ir sąžiningai.)
