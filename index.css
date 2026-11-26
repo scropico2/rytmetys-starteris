@@ -1,0 +1,17 @@
+.headerLogoTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navItem {
+  text-decoration: none;
+}
+.navItem--marked {
+  text-decoration: none;
+}
