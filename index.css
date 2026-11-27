@@ -850,3 +850,37 @@ img {
     grid-auto-rows: 224px;
   }
 }
+
+/* rezervacijos puslapis
+
+*/
+.reservationHero {
+  padding: 20px;
+  background-color: var(--surface);
+  border-top: 2px solid var(--line);
+  border-bottom: 2px solid var(--line);
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+.navList a {
+  text-decoration: none;
+  color: var(--primary);
+}
+.navList a:last-child {
+  color: var(--text-muted);
+}
+.reservationTitle {
+  margin: 0 0 12px;
+  font-size: 32px;
+  color: var(--text);
+}
+
+.reservationText {
+  font-size: 16px;
+  color: var(--text-muted);
+}
