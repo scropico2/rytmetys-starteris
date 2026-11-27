@@ -191,3 +191,20 @@ img {
   border-radius: 50%;
   background-color: var(--primary);
 }
+.about {
+  border-top: 2px solid var(--line);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface);
+}
+
+.aboutImage {
+  order: -1;
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
