@@ -567,3 +567,20 @@ img {
   font-size: 14px;
   color: var(--text-muted);
 }
+
+.visitMap {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.visitAddress {
+  font-style: normal;
+
+  line-height: 1.5em;
+}
+.visitAddress a {
+  color: var(--primary);
+  text-decoration: none;
+}
