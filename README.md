@@ -32,13 +32,18 @@ Pažymėk `x` tai, ką baigei (`- [x]`). Ko nespėjai arba nepavyko, palik nepa�
 - [ `x` ] CSS kintamieji (`:root`): spalvos, kampai, šešėlis, šriftai
 - [ `x` ] Hover, fokuso ir klaidos būsenos pagal `maketai/busenos.png`, su `transition`
 - [ `x` ] Spalvos, šriftai, tarpai ir smulkmenos atitinka maketą
-- [ ] Šis README užpildytas
+- [ `x` ] Šis README užpildytas
 
 ### 3 etapas: mano dalis
 
-- **Pasirinkta idėja:** (įrašyk)
-- **Ką padariau:** (2-3 sakiniai)
-- **Kur kode:** (failas ir sekcija)
+- **Pasirinkta idėja:** (Animacijų papildymas.)
+- **Ką padariau:** (Pasirinkau išskirtines korteles paryškindamas jų etiketes, taip jos dabar pulsuoja ir leidžia žinoti išskirtinumą vartotojui. Taip pat table sekcijoje, pridejau savaitgalio eilutėms animaciją, kuri atspindi, kad tai svaitgaliais tik.)
+- **Kur kode:** (hoursTable tbody tr:nth-child(2),
+  .hoursTable tbody tr:nth-child(3) // lentelių animacija;
+
+cardBadge etikečių pulsavimas ;
+
+heroBadge::before skrituliuko pulsavimas; )
 
 ## Kas nepavyko arba ką darytum toliau
 
