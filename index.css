@@ -907,7 +907,7 @@ img {
   gap: 12px;
   min-width: 0;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   border: 0;
 }
 .formGroupTitle {
@@ -916,4 +916,94 @@ img {
   color: var(--text);
   padding: 0;
   margin-bottom: 20px;
+}
+
+.formField label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.formField input,
+.formField select,
+.formField textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background-color: var(--white);
+  color: var(--text);
+}
+.formSubgroup {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.formSubgroup legend {
+  margin-bottom: 20px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.formOptionsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+.formOptionsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.formOption {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+.formOption input,
+.formConsent input {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  accent-color: var(--primary);
+}
+.formConsent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 15px;
+  color: var(--text-muted);
+}
+.reservationInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.infoBlock {
+  padding: 10px;
+  background-color: var(--surface);
+  border-radius: 20px;
+}
+.infoBlock--urgent {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.infoTitle {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+.infoPhone {
+  color: inherit;
+  font-size: 20;
+  font-weight: 700;
+  text-decoration: none;
+}
+.infoText {
+  font-size: 16px;
 }
