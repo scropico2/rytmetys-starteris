@@ -884,3 +884,36 @@ img {
   font-size: 16px;
   color: var(--text-muted);
 }
+
+.reservationFormSection {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 24px;
+}
+.reservationForm {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 24px;
+  gap: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.formGroupTitle {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  color: var(--text);
+  padding: 0;
+  margin-bottom: 20px;
+}
