@@ -42,6 +42,7 @@ h3 {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 .headerLogoTitle {
@@ -151,4 +152,42 @@ img {
 .button--outline {
   background-color: transparent;
   color: var(--primary);
+}
+
+.heroImage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.heroImage img {
+  border-top: 4px solid var(--line);
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.heroBadge {
+  position: absolute;
+  top: 16px;
+
+  left: 16px;
+  margin: 0;
+  font-size: 14px;
+  padding: 8px;
+  background-color: var(--surface);
+  border-radius: 20px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+}
+
+.heroBadge::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--primary);
 }
