@@ -1,7 +1,7 @@
 /*spalvos*/
 
 :root {
-  --background: #fffbf2;
+  --bg: #fffbf2;
   --surface: #f4ecdd;
   --text: #1e2a28;
   --text-muted: #566561;
@@ -15,16 +15,44 @@
   --white: #ffffff;
   --footer-text: #c9d3cf;
   --cta-text: #e6f2ec;
+
+  --font-heading: "DM Serif Display", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-  background-color: var(--background);
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .headerLogoTitle {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 12px;
+}
+
+.headerLogo {
+  padding:;
 }
 
 .navBar {
