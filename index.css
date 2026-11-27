@@ -10,7 +10,7 @@
   --accent: #f2b632;
   --accent-dark: #d99a14;
   --line: #e6dac3;
-  --field-border: #8a9894;
+  --border: #8a9894;
   --error: #b3261e;
   --white: #ffffff;
   --footer-text: #c9d3cf;
@@ -49,21 +49,34 @@ img {
   justify-content: center;
   align-items: center;
   gap: 12px;
+  padding: 10px;
 }
 
-.headerLogo {
-  padding:;
+.headerTitle {
+  font-size: 32px;
 }
 
 .navBar {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
+  padding: 12px 0;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 46px;
 }
 .navItem {
   text-decoration: none;
   color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 4px;
 }
 .navItem--marked {
+  font-weight: 700;
+  padding: 12px 4px;
+  font-size: 14px;
   text-decoration: none;
+  color: var(--primary);
 }
