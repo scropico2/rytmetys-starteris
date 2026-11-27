@@ -4,7 +4,7 @@ HTML ir CSS atsiskaitymas, Vilnius Coding School.
 
 - **Vardas, pavardė:** (Simas, Cicėnas)
 - **Grupė:** (261019JVS492VAK)
-- **GitHub Pages nuoroda (nebūtina):** (įrašyk, jei publikavai)
+- **GitHub Pages nuoroda (nebūtina):** (https://scropico2.github.io/rytmetys-starteris/)
 
 ## Kaip peržiūrėti
 
