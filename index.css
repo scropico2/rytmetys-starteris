@@ -450,3 +450,60 @@ img {
   color: var(--white);
   text-decoration: underline;
 }
+
+.footerLogoTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  letter-spacing: 0.08em;
+}
+
+.footerLogoTitle img {
+  width: 56px;
+  height: 56px;
+}
+.footerTitle {
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+.footerText {
+  max-width: 288px;
+  margin: 0 0 32px;
+  line-height: 1.5em;
+}
+.footerNavigationHeader,
+.footerContactsHeader {
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0 0 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  font-size: 20px;
+}
+.footerNavigationList {
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 0;
+}
+.footerNavigationList li {
+  margin-bottom: 10px;
+}
+.footerContacts {
+  margin-bottom: 40px;
+  line-height: 1.5em;
+  gap: 12px;
+}
+.footerCreditation {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+  padding-top: 20px;
+  line-height: 1.5em;
+}
+.footerCreditation p {
+  margin: 0;
+}
