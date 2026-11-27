@@ -363,3 +363,44 @@ img {
   grid-auto-rows: 158px;
   gap: 20px;
 }
+
+.galleryItem {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.galleryItem--wide {
+  grid-column: span 2;
+}
+
+.galleryItem--tall {
+  grid-row: span 2;
+}
+.galleryItem:first-child {
+  grid-row: span 2;
+}
+
+.galleryItem img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.galleryItem:hover img {
+  transform: scale(1.06);
+}
+
+.galleryItemText {
+  position: absolute;
+  color: var(--surface);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 2), transparent);
+}
