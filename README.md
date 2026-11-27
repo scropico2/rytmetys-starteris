@@ -27,8 +27,8 @@ Pažymėk `x` tai, ką baigei (`- [x]`). Ko nespėjai arba nepavyko, palik nepa�
 ### 2 etapas: pilnas projektas
 
 - [ `x` ] Darbo laiko lentelė (`caption`, `thead`, `tbody`, `tfoot`, `th scope`, `colspan`)
-- [ ] `rezervacija.html` su forma pagal maketą ir turinį
-- [ ] Formos laukai: tinkami `type`, `label for`, `fieldset` ir `legend`, `required`, `min`, `max`, `pattern`
+- [ `x` ] `rezervacija.html` su forma pagal maketą ir turinį
+- [ `x` ] Formos laukai: tinkami `type`, `label for`, `fieldset` ir `legend`, `required`, `min`, `max`, `pattern`
 - [ `x` ] CSS kintamieji (`:root`): spalvos, kampai, šešėlis, šriftai
 - [ `x` ] Hover, fokuso ir klaidos būsenos pagal `maketai/busenos.png`, su `transition`
 - [ `x` ] Spalvos, šriftai, tarpai ir smulkmenos atitinka maketą
@@ -47,4 +47,4 @@ heroBadge::before skrituliuko pulsavimas; )
 
 ## Kas nepavyko arba ką darytum toliau
 
-(2-3 sakiniai. Trumpai ir sąžiningai.)
+Rėmiausi ankstesnėmis kurtomis svetainėmis ir patirtimi, nėra panaudotos topografijos taisyklių iš :root.
