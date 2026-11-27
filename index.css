@@ -507,3 +507,63 @@ img {
 .footerCreditation p {
   margin: 0;
 }
+
+.visit {
+  padding: 20px;
+}
+.visitTitle {
+  text-align: center;
+  font-size: 32px;
+  margin: 0 0 12px;
+}
+.visitText {
+  margin: 0 0 32px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.visitBlockTitle {
+  margin: 0 0 12px;
+  font-size: 24px;
+}
+.hoursTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 16px;
+}
+.hoursTable caption {
+  background-color: var(--primary);
+  color: var(--surface);
+  border-radius: 12px;
+  text-align: left;
+  padding: 14px;
+}
+.hoursTable thead tr {
+  background-color: var(--surface);
+}
+
+.hoursTable thead th {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.hoursTable th,
+.hoursTable td {
+  padding: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.hoursTable tbody th {
+  font-weight: 600;
+}
+
+.hoursTable tbody tr:hover {
+  background-color: var(--line);
+}
+
+.hoursTable tfoot td {
+  border-bottom: 0;
+  font-size: 14px;
+  color: var(--text-muted);
+}
