@@ -258,4 +258,10 @@ img {
 .menuText {
   text-align: center;
   font-size: 15px;
+  color: var(--text-muted);
+}
+.menuCards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
