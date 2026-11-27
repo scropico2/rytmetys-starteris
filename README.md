@@ -21,7 +21,7 @@ Pažymėk `x` tai, ką baigei (`- [x]`). Ko nespėjai arba nepavyko, palik nepa�
 - [ `x` ] Visos `index.html` sekcijos pagal maketą (darbo laiko lentelę palik 2 etapui)
 - [ ] Paveikslėliai su `alt`, `width` ir `height`; galerijoje `figure` ir `figcaption`
 - [ `x` ] Telefono vaizdas (390 px) pagal maketą
-- [ ] Planšetės (768 px) ir kompiuterio (1024 px ir 1440 px) vaizdai pagal maketą
+- [ `x` ] Planšetės (768 px) ir kompiuterio (1024 px ir 1440 px) vaizdai pagal maketą
 - [ `x` ] Flexbox (antraštė, mygtukai, kortelės vidus) ir Grid (meniu kortelės, galerija)
 
 ### 2 etapas: pilnas projektas
