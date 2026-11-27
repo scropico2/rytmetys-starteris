@@ -33,7 +33,7 @@
         <div class="navList">
           <a href="index.html">Pradžia</a>
           <p>/</p>
-          <a href="rezervacija.html">Rezervacija</a>
+          <a class="navList--muted" href="rezervacija.html">Rezervacija</a>
         </div>
         <h1 class="reservationTitle">Rezervuokite stalą</h1>
         <p class="reservationText">
@@ -41,6 +41,119 @@
         </p>
       </div>
     </div>
+
+    <main class="reservationFormSection">
+      <form class="reservationForm">
+        <fieldset class="formGroup">
+          <legend class="formGroupTitle">Jūsų duomenys</legend>
+
+          <div class="formField">
+            <label for="name">Vardas ir Pavardė</label>
+            <input type="text" id="name" name="name" placeholder="Irašykite savo vardą ir pavardę" required />
+          </div>
+          <div class="formField">
+            <label for="email">El. paštas</label>
+            <input type="email" id="email" name="email" placeholder="Jūsų el. paštas" required />
+          </div>
+
+          <div class="formField">
+            <label for="phone">Telefono numeris</label>
+            <input type="tel" id="phone" name="phone" placeholder="+370 600 00 000" required />
+          </div>
+        </fieldset>
+        <fieldset class="formGroup">
+          <legend class="formGroupTitle">Rezervacijos informacija</legend>
+          <div class="formField">
+            <label for="date">Data</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+
+          <div class="formField">
+            <label for="time">Laikas</label>
+            <input type="time" id="time" name="time" required />
+          </div>
+
+          <div class="formField">
+            <label for="guests">Svečių skaičius</label>
+            <input type="number" id="guests" name="guests" value="2" min="1" max="12" required />
+          </div>
+          <div class="formField">
+            <label for="place">Pageidaujama vieta</label>
+            <select id="place" name="place">
+              <option value="any">Nesvarbu</option>
+              <option value="inside">Viduje</option>
+              <option value="terrace">Terasoje</option>
+            </select>
+          </div>
+        </fieldset>
+        
+      </form>
+      <fieldset class="formGroup">
+      <legend class="formGroupTitle">Papildomai</legend>
+
+      <fieldset class="formSubgroup">
+        <legend>Kaip patvirtinti rezervaciją?</legend>
+        <div class="formOptionsRow">
+          <label class="formOption">
+            <input type="radio" name="confirmation" value="email" checked />
+            El. paštu
+          </label>
+          <label class="formOption">
+            <input type="radio" name="confirmation" value="sms" />
+            SMS žinute
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="formSubgroup">
+        <legend>Pageidavimai</legend>
+        <div class="formOptionsColumn">
+          <label class="formOption">
+            <input type="checkbox" name="wishes" value="highchair" />
+            Reikia vaikiškos kėdutės
+          </label>
+          <label class="formOption">
+            <input type="checkbox" name="wishes" value="birthday" />
+            Švenčiame gimtadienį
+          </label>
+          <label class="formOption">
+            <input type="checkbox" name="wishes" value="allergies" />
+            Turime alergijų (parašysiu komentare)
+          </label>
+        </div>
+      </fieldset>
+      <div class="formField">
+        <label for="comment">Komentaras</label>
+        <textarea id="comment" name="comment" rows="4" maxlength="500"
+                  placeholder="Pvz., atvyksime su vežimėliu"></textarea>
+      </div>
+    </fieldset>
+
+    <label class="formConsent">
+      <input type="checkbox" name="consent" required />
+      Sutinku, kad mano duomenys būtų naudojami rezervacijai patvirtinti.
+    </label>
+
+    <button class="button--marked" type="submit">Siųsti rezervaciją</button>
+  </form>
+
+  <aside class="reservationInfo">
+    <div class="infoBlock">
+      <h2 class="infoTitle">Prieš rezervuojant</h2>
+      <ul class="infoList">
+        <li>Staliuką laikome 15 minučių nuo rezervacijos laiko.</li>
+         <li>Grupėms nuo 8 svečių prašome skambinti.</li>
+          <li>Patvirtinimą atsiųsime el. paštu arba SMS žinute</li>
+           <li>Į terasą galite ateiti su augintiniu.</li>
+      </ul>
+    </div>
+    <div class="infoBlock infoBlock--urgent">
+      <h2 class="infoTitle">Skubus klausimas?</h2>
+      <a class="infoPhone" href="tel:+37060000000">+370 600 00 000</a>
+    </div>
+  </aside>
+      
+    </main>
     <footer class="footer">
       <div class="footerLogoTitle">
         <img src="images/logo.svg" width="64" height="64" alt="logotipas-saule" />
