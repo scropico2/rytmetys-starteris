@@ -343,6 +343,7 @@ img {
   font-weight: 600;
   font-size: 14px;
   margin-top: 20px;
+  animation: badgePulse 2s ease-in-out infinite;
 }
 
 .gallery {
@@ -583,4 +584,16 @@ img {
 .visitAddress a {
   color: var(--primary);
   text-decoration: none;
+}
+
+@keyframes badgePulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(242, 182, 50, 0.6);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 0 0 8px rgba(242, 182, 50, 0);
+  }
 }
