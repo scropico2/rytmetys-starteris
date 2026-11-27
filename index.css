@@ -569,6 +569,11 @@ img {
   font-size: 14px;
   color: var(--text-muted);
 }
+.hoursTable tbody tr:nth-child(2),
+.hoursTable tbody tr:nth-child(3) {
+  background-image: repeating-linear-gradient(45deg, transparent 0 10px, rgba(15, 92, 77, 0.08) 10px 20px);
+  animation: stripesMove 1.5s linear infinite;
+}
 
 .visitMap {
   display: block;
@@ -611,5 +616,13 @@ img {
   100% {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(15, 92, 77, 0);
+  }
+}
+@keyframes stripesMove {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 28.28px 0;
   }
 }
