@@ -285,3 +285,60 @@ img {
   transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
 }
+
+.cardImage {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.05);
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  padding: 20px 20px 24px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.cardTitle {
+  font-size: 20px;
+  color: var(--text);
+  margin: 0;
+}
+
+.cardPrice {
+  flex-shrink: 0;
+  font-size: 16px;
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.cardText {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.cardBadge {
+  color: var(--text);
+  background-color: var(--accent);
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
