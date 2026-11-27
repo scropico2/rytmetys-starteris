@@ -2,8 +2,8 @@
 
 HTML ir CSS atsiskaitymas, Vilnius Coding School.
 
-- **Vardas, pavardė:** (įrašyk)
-- **Grupė:** (įrašyk)
+- **Vardas, pavardė:** (Simas, Cicėnas)
+- **Grupė:** (261019JVS492VAK)
 - **GitHub Pages nuoroda (nebūtina):** (įrašyk, jei publikavai)
 
 ## Kaip peržiūrėti
@@ -16,22 +16,22 @@ Pažymėk `x` tai, ką baigei (`- [x]`). Ko nespėjai arba nepavyko, palik nepa�
 
 ### 1 etapas: pagrindas
 
-- [ ] Dokumento karkasas: `lang="lt"`, `charset`, `viewport`, `title`, šriftai, `css/style.css`
-- [ ] Semantinė struktūra: `header`, `nav`, `main`, `section`, `footer`, viena `h1`
-- [ ] Visos `index.html` sekcijos pagal maketą (darbo laiko lentelę palik 2 etapui)
+- [ `x`] Dokumento karkasas: `lang="lt"`, `charset`, `viewport`, `title`, šriftai, `css/style.css`
+- [ `x`] Semantinė struktūra: `header`, `nav`, `main`, `section`, `footer`, viena `h1`
+- [ `x` ] Visos `index.html` sekcijos pagal maketą (darbo laiko lentelę palik 2 etapui)
 - [ ] Paveikslėliai su `alt`, `width` ir `height`; galerijoje `figure` ir `figcaption`
-- [ ] Telefono vaizdas (390 px) pagal maketą
+- [ `x` ] Telefono vaizdas (390 px) pagal maketą
 - [ ] Planšetės (768 px) ir kompiuterio (1024 px ir 1440 px) vaizdai pagal maketą
-- [ ] Flexbox (antraštė, mygtukai, kortelės vidus) ir Grid (meniu kortelės, galerija)
+- [ `x` ] Flexbox (antraštė, mygtukai, kortelės vidus) ir Grid (meniu kortelės, galerija)
 
 ### 2 etapas: pilnas projektas
 
-- [ ] Darbo laiko lentelė (`caption`, `thead`, `tbody`, `tfoot`, `th scope`, `colspan`)
+- [ `x` ] Darbo laiko lentelė (`caption`, `thead`, `tbody`, `tfoot`, `th scope`, `colspan`)
 - [ ] `rezervacija.html` su forma pagal maketą ir turinį
 - [ ] Formos laukai: tinkami `type`, `label for`, `fieldset` ir `legend`, `required`, `min`, `max`, `pattern`
-- [ ] CSS kintamieji (`:root`): spalvos, kampai, šešėlis, šriftai
-- [ ] Hover, fokuso ir klaidos būsenos pagal `maketai/busenos.png`, su `transition`
-- [ ] Spalvos, šriftai, tarpai ir smulkmenos atitinka maketą
+- [ `x` ] CSS kintamieji (`:root`): spalvos, kampai, šešėlis, šriftai
+- [ `x` ] Hover, fokuso ir klaidos būsenos pagal `maketai/busenos.png`, su `transition`
+- [ `x` ] Spalvos, šriftai, tarpai ir smulkmenos atitinka maketą
 - [ ] Šis README užpildytas
 
 ### 3 etapas: mano dalis
