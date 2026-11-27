@@ -342,3 +342,24 @@ img {
   font-size: 14px;
   margin-top: 20px;
 }
+
+.gallery {
+  padding: 20px;
+  background-color: var(--surface);
+  border-top: 2px solid var(--line);
+  border-bottom: 2px solid var(--line);
+}
+
+.galleryTitle {
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 40px;
+  color: var(--text);
+}
+
+.galleryArea {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 158px;
+  gap: 20px;
+}
